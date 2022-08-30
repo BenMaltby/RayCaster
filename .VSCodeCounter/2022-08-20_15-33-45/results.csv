@@ -1,0 +1,27 @@
+"filename", "language", "Python", "Log", "comment", "blank", "total"
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/Chunk_Struct.py", "Python", 41, 0, 22, 22, 85
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/EdgeDetectionAlgorithm.py", "Python", 70, 0, 13, 30, 113
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/Failed Code.py", "Python", 0, 0, 347, 68, 415
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/Frustum_Culling_Test.py", "Python", 42, 0, 6, 30, 78
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/GEWY.py", "Python", 397, 0, 25, 134, 556
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/GenerateChunkMapFromImage.py", "Python", 68, 0, 14, 28, 110
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/GuiHitboxOBJ.py", "Python", 10, 0, 1, 2, 13
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/IntersectionDefinition.py", "Python", 14, 0, 4, 6, 24
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/LineSegmentDefinition.py", "Python", 29, 0, 6, 13, 48
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/Main.py", "Python", 272, 0, 56, 100, 428
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/MapFiles/debug.log", "Log", 0, 1, 0, 1, 2
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/MapProcessing.py", "Python", 130, 0, 34, 59, 223
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/ObjectDef.py", "Python", 8, 0, 0, 3, 11
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/ProjectileDefinition.py", "Python", 10, 0, 0, 3, 13
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/RayCastDefinition.py", "Python", 90, 0, 30, 34, 154
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/SpriteSystem.py", "Python", 66, 0, 6, 23, 95
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/TurretDefinition.py", "Python", 178, 0, 28, 46, 252
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/VOBJ.py", "Python", 69, 0, 2, 32, 103
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/VOBJ_TEST.py", "Python", 4, 0, 0, 3, 7
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/Zombie_Definition.py", "Python", 73, 0, 6, 27, 106
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/aStar.py", "Python", 90, 0, 17, 30, 137
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/line-intersection-efficiency-test.py", "Python", 38, 0, 0, 23, 61
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/pathFindingTest.py", "Python", 125, 0, 7, 31, 163
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/spriteDefinitions.py", "Python", 33, 0, 2, 21, 56
+"/Users/benmaltby/Documents/python/NEA/Code/New/v4/sprites/Unedited/spriteTest.py", "Python", 32, 0, 17, 15, 64
+"Total", "-", 1889, 1, 643, 784, 3317

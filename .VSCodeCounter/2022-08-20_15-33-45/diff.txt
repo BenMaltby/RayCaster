@@ -1,0 +1,143 @@
+Date : 2022-08-20 15:33:45
+Directory : /Users/benmaltby/Documents/python/NEA/Code/New/v4
+Total : 103 files,  -5402 codes, -1147 comments, -2087 blanks, all -8636 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Log      |          3 |         -4 |          0 |         -3 |         -7 |
+| XML      |          4 |        -30 |          0 |          0 |        -30 |
+| Python   |         96 |     -5,368 |     -1,147 |     -2,084 |     -8,599 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                            | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                               |        103 |     -5,402 |     -1,147 |     -2,087 |     -8,636 |
+| ..                                                                                              |        103 |     -5,402 |     -1,147 |     -2,087 |     -8,636 |
+| ../..                                                                                           |         20 |     -1,022 |        -66 |       -384 |     -1,472 |
+| ../../..                                                                                        |         17 |       -916 |        -62 |       -337 |     -1,315 |
+| ../../../.idea                                                                                  |          4 |        -30 |          0 |          0 |        -30 |
+| ../../../.idea/inspectionProfiles                                                               |          1 |         -6 |          0 |          0 |         -6 |
+| ../../../Collision_Detection                                                                    |          5 |       -452 |        -23 |       -152 |       -627 |
+| ../../../MapGeneration                                                                          |          5 |       -125 |        -19 |        -68 |       -212 |
+| ../../../PathFinding                                                                            |          3 |       -309 |        -20 |       -117 |       -446 |
+| ../../Old                                                                                       |          3 |       -106 |         -4 |        -47 |       -157 |
+| ../V1.1_Broken                                                                                  |         16 |       -851 |       -176 |       -303 |     -1,330 |
+| ../V1.5_Broken                                                                                  |         17 |       -859 |       -180 |       -304 |     -1,343 |
+| ../v1                                                                                           |         14 |       -737 |       -155 |       -257 |     -1,149 |
+| ../v2                                                                                           |         18 |       -932 |       -286 |       -406 |     -1,624 |
+| ../v3                                                                                           |         18 |     -1,001 |       -284 |       -433 |     -1,718 |
++-------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                        | language | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/benmaltby/Documents/python/NEA/.idea/NEA.iml                                             | XML      |        -12 |          0 |          0 |        -12 |
+| /Users/benmaltby/Documents/python/NEA/.idea/inspectionProfiles/profiles_settings.xml            | XML      |         -6 |          0 |          0 |         -6 |
+| /Users/benmaltby/Documents/python/NEA/.idea/misc.xml                                            | XML      |         -4 |          0 |          0 |         -4 |
+| /Users/benmaltby/Documents/python/NEA/.idea/modules.xml                                         | XML      |         -8 |          0 |          0 |         -8 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/Chunk_Struct.py                      | Python   |        -33 |        -18 |        -19 |        -70 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/EdgeDetectionAlgorithm.py            | Python   |        -67 |         -5 |        -28 |       -100 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/Failed Code.py                       | Python   |          0 |        -77 |         -8 |        -85 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/GEWY.py                              | Python   |       -267 |        -17 |        -89 |       -373 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/GenerateChunkMapFromImage.py         | Python   |        -30 |          0 |        -18 |        -48 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/GuiHitboxOBJ.py                      | Python   |        -10 |         -1 |         -2 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/IntersectionDefinition.py            | Python   |        -14 |          0 |         -4 |        -18 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/LineSegmentDefinition.py             | Python   |        -56 |          0 |        -11 |        -67 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/Main.py                              | Python   |        -94 |        -18 |        -28 |       -140 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/MapProcessing.py                     | Python   |        -88 |        -21 |        -22 |       -131 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/ObjectDef.py                         | Python   |         -8 |          0 |         -3 |        -11 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/ProjectileDefinition.py              | Python   |        -10 |          0 |         -3 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/RayCastDefinition.py                 | Python   |        -36 |         -4 |         -9 |        -49 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/TurretDefinition.py                  | Python   |        -57 |        -13 |        -15 |        -85 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/VOBJ.py                              | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.1_Broken/line-intersection-efficiency-test.py | Python   |        -38 |          0 |        -23 |        -61 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/Chunk_Struct.py                      | Python   |        -33 |        -18 |        -19 |        -70 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/EdgeDetectionAlgorithm.py            | Python   |        -67 |         -5 |        -28 |       -100 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/Failed Code.py                       | Python   |          0 |        -77 |         -8 |        -85 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/GEWY.py                              | Python   |       -267 |        -17 |        -89 |       -373 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/GenerateChunkMapFromImage.py         | Python   |        -32 |          0 |        -18 |        -50 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/GuiHitboxOBJ.py                      | Python   |        -10 |         -1 |         -2 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/IntersectionDefinition.py            | Python   |        -14 |          0 |         -4 |        -18 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/LineSegmentDefinition.py             | Python   |        -56 |          0 |        -11 |        -67 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/Main.py                              | Python   |        -91 |        -21 |        -28 |       -140 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/MapProcessing.py                     | Python   |        -94 |        -21 |        -22 |       -137 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/ObjectDef.py                         | Python   |         -8 |          0 |         -3 |        -11 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/ProjectileDefinition.py              | Python   |        -10 |          0 |         -3 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/RayCastDefinition.py                 | Python   |        -37 |         -4 |         -9 |        -50 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/TurretDefinition.py                  | Python   |        -59 |        -14 |        -15 |        -88 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/VOBJ.py                              | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/debug.log                            | Log      |          0 |          0 |         -1 |         -1 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/V1.5_Broken/line-intersection-efficiency-test.py | Python   |        -38 |          0 |        -23 |        -61 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/EdgeDetectionAlgorithm.py                     | Python   |        -50 |         -4 |        -23 |        -77 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/Failed Code.py                                | Python   |          0 |        -77 |         -8 |        -85 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/GEWY.py                                       | Python   |       -267 |        -17 |        -89 |       -373 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/GuiHitboxOBJ.py                               | Python   |        -10 |         -1 |         -2 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/IntersectionDefinition.py                     | Python   |        -14 |          0 |         -4 |        -18 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/LineSegmentDefinition.py                      | Python   |        -56 |          0 |        -11 |        -67 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/Main.py                                       | Python   |        -79 |        -14 |        -25 |       -118 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/MapProcessing.py                              | Python   |        -88 |        -21 |        -22 |       -131 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/ObjectDef.py                                  | Python   |         -8 |          0 |         -3 |        -11 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/ProjectileDefinition.py                       | Python   |        -10 |          0 |         -3 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/RayCastDefinition.py                          | Python   |        -30 |         -6 |         -9 |        -45 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/TurretDefinition.py                           | Python   |        -44 |        -13 |        -14 |        -71 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/VOBJ.py                                       | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v1/line-intersection-efficiency-test.py          | Python   |        -38 |          0 |        -23 |        -61 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/Chunk_Struct.py                               | Python   |        -41 |        -22 |        -21 |        -84 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/EdgeDetectionAlgorithm.py                     | Python   |        -70 |        -14 |        -30 |       -114 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/Failed Code.py                                | Python   |          0 |        -92 |        -12 |       -104 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/Frustum_Culling_Test.py                       | Python   |        -42 |         -6 |        -30 |        -78 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/GEWY.py                                       | Python   |       -267 |        -17 |        -89 |       -373 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/GenerateChunkMapFromImage.py                  | Python   |        -34 |          0 |        -19 |        -53 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/GuiHitboxOBJ.py                               | Python   |        -10 |         -1 |         -2 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/IntersectionDefinition.py                     | Python   |        -14 |         -4 |         -6 |        -24 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/LineSegmentDefinition.py                      | Python   |        -56 |          0 |        -11 |        -67 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/Main.py                                       | Python   |       -111 |        -34 |        -46 |       -191 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/MapProcessing.py                              | Python   |        -60 |        -55 |        -41 |       -156 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/ObjectDef.py                                  | Python   |         -8 |          0 |         -3 |        -11 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/ProjectileDefinition.py                       | Python   |        -10 |          0 |         -3 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/RayCastDefinition.py                          | Python   |        -69 |        -21 |        -23 |       -113 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/TurretDefinition.py                           | Python   |        -57 |        -18 |        -25 |       -100 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/VOBJ.py                                       | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/debug.log                                     | Log      |         -2 |          0 |         -1 |         -3 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v2/line-intersection-efficiency-test.py          | Python   |        -38 |          0 |        -23 |        -61 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/Chunk_Struct.py                               | Python   |        -41 |        -22 |        -21 |        -84 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/EdgeDetectionAlgorithm.py                     | Python   |        -70 |        -14 |        -30 |       -114 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/Failed Code.py                                | Python   |          0 |        -97 |        -16 |       -113 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/Frustum_Culling_Test.py                       | Python   |        -42 |         -6 |        -30 |        -78 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/GEWY.py                                       | Python   |       -267 |        -17 |        -89 |       -373 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/GenerateChunkMapFromImage.py                  | Python   |        -35 |          0 |        -19 |        -54 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/GuiHitboxOBJ.py                               | Python   |        -10 |         -1 |         -2 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/IntersectionDefinition.py                     | Python   |        -14 |         -4 |         -6 |        -24 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/LineSegmentDefinition.py                      | Python   |        -56 |          0 |        -11 |        -67 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/Main.py                                       | Python   |       -111 |        -35 |        -47 |       -193 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/MapProcessing.py                              | Python   |       -109 |        -43 |        -53 |       -205 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/ObjectDef.py                                  | Python   |         -8 |          0 |         -3 |        -11 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/ProjectileDefinition.py                       | Python   |        -10 |          0 |         -3 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/RayCastDefinition.py                          | Python   |        -84 |        -26 |        -32 |       -142 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/TurretDefinition.py                           | Python   |        -61 |        -17 |        -26 |       -104 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/VOBJ.py                                       | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/debug.log                                     | Log      |         -2 |          0 |         -1 |         -3 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v3/line-intersection-efficiency-test.py          | Python   |        -38 |          0 |        -23 |        -61 |
+| /Users/benmaltby/Documents/python/NEA/Code/Old/Main.py                                          | Python   |        -34 |         -2 |        -16 |        -52 |
+| /Users/benmaltby/Documents/python/NEA/Code/Old/MapProcessing.py                                 | Python   |        -29 |          0 |        -10 |        -39 |
+| /Users/benmaltby/Documents/python/NEA/Code/Old/VOBJ.py                                          | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/Collision_Detection/Collision_Demo.py                     | Python   |        -97 |         -3 |        -25 |       -125 |
+| /Users/benmaltby/Documents/python/NEA/Collision_Detection/GEWY.py                               | Python   |       -282 |        -17 |        -92 |       -391 |
+| /Users/benmaltby/Documents/python/NEA/Collision_Detection/GuiHitboxOBJ.py                       | Python   |        -10 |         -1 |         -2 |        -13 |
+| /Users/benmaltby/Documents/python/NEA/Collision_Detection/ObjectDef.py                          | Python   |         -8 |          0 |         -3 |        -11 |
+| /Users/benmaltby/Documents/python/NEA/Collision_Detection/VOBJ.py                               | Python   |        -55 |         -2 |        -30 |        -87 |
+| /Users/benmaltby/Documents/python/NEA/MapGeneration/Chunk_Struct.py                             | Python   |        -30 |        -17 |        -19 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/MapGeneration/GenerateChunkMapFromImage.py                | Python   |        -32 |          0 |        -20 |        -52 |
+| /Users/benmaltby/Documents/python/NEA/MapGeneration/Generating_image_of_map.py                  | Python   |        -15 |          0 |         -6 |        -21 |
+| /Users/benmaltby/Documents/python/NEA/MapGeneration/VOBJ.py                                     | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/MapGeneration/cVec_test_disregard.py                      | Python   |         -5 |          0 |         -2 |         -7 |
+| /Users/benmaltby/Documents/python/NEA/PathFinding/VOBJ.py                                       | Python   |        -43 |         -2 |        -21 |        -66 |
+| /Users/benmaltby/Documents/python/NEA/PathFinding/aStar.py                                      | Python   |        -84 |        -13 |        -27 |       -124 |
+| /Users/benmaltby/Documents/python/NEA/PathFinding/main.py                                       | Python   |       -182 |         -5 |        -69 |       -256 |
+| Total                                                                                           |          |     -5,402 |     -1,147 |     -2,087 |     -8,636 |
++-------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

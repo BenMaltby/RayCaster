@@ -1,0 +1,53 @@
+Date : 2022-08-20 15:33:45
+Directory : /Users/benmaltby/Documents/python/NEA/Code/New/v4
+Total : 25 files,  1890 codes, 643 comments, 784 blanks, all 3317 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |         24 |      1,889 |        643 |        783 |      3,315 |
+| Log      |          1 |          1 |          0 |          1 |          2 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                   | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                      |         25 |      1,890 |        643 |        784 |      3,317 |
+| MapFiles                                                                               |          1 |          1 |          0 |          1 |          2 |
+| sprites                                                                                |          1 |         32 |         17 |         15 |         64 |
+| sprites/Unedited                                                                       |          1 |         32 |         17 |         15 |         64 |
++----------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                               | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/Chunk_Struct.py                      | Python   |         41 |         22 |         22 |         85 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/EdgeDetectionAlgorithm.py            | Python   |         70 |         13 |         30 |        113 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/Failed Code.py                       | Python   |          0 |        347 |         68 |        415 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/Frustum_Culling_Test.py              | Python   |         42 |          6 |         30 |         78 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/GEWY.py                              | Python   |        397 |         25 |        134 |        556 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/GenerateChunkMapFromImage.py         | Python   |         68 |         14 |         28 |        110 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/GuiHitboxOBJ.py                      | Python   |         10 |          1 |          2 |         13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/IntersectionDefinition.py            | Python   |         14 |          4 |          6 |         24 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/LineSegmentDefinition.py             | Python   |         29 |          6 |         13 |         48 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/Main.py                              | Python   |        272 |         56 |        100 |        428 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/MapFiles/debug.log                   | Log      |          1 |          0 |          1 |          2 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/MapProcessing.py                     | Python   |        130 |         34 |         59 |        223 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/ObjectDef.py                         | Python   |          8 |          0 |          3 |         11 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/ProjectileDefinition.py              | Python   |         10 |          0 |          3 |         13 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/RayCastDefinition.py                 | Python   |         90 |         30 |         34 |        154 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/SpriteSystem.py                      | Python   |         66 |          6 |         23 |         95 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/TurretDefinition.py                  | Python   |        178 |         28 |         46 |        252 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/VOBJ.py                              | Python   |         69 |          2 |         32 |        103 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/VOBJ_TEST.py                         | Python   |          4 |          0 |          3 |          7 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/Zombie_Definition.py                 | Python   |         73 |          6 |         27 |        106 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/aStar.py                             | Python   |         90 |         17 |         30 |        137 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/line-intersection-efficiency-test.py | Python   |         38 |          0 |         23 |         61 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/pathFindingTest.py                   | Python   |        125 |          7 |         31 |        163 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/spriteDefinitions.py                 | Python   |         33 |          2 |         21 |         56 |
+| /Users/benmaltby/Documents/python/NEA/Code/New/v4/sprites/Unedited/spriteTest.py       | Python   |         32 |         17 |         15 |         64 |
+| Total                                                                                  |          |      1,890 |        643 |        784 |      3,317 |
++----------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
