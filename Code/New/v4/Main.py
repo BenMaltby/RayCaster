@@ -1,3 +1,5 @@
+# Main file contains game loop
+
 import math
 import pygame
 import colorsys
