@@ -34,5 +34,5 @@ Level_Defaults = {
     "2" : (HEALTH_MAX, True, "Pistol", "max", False, 270),
     "3" : (HEALTH_MAX, False, "Pistol", "max", True, 270),
     "4" : (HEALTH_MAX, False, "Pistol", "max", False, 270),
-    "5" : (HEALTH_MAX, False, "Pistol", "max", True, 270)
+    "5" : (HEALTH_MAX, False, "Pistol", "max", False, 270)
 }

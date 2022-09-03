@@ -11,7 +11,7 @@ import math
 from pygame import time as pgTime
 
 ZOMBIE_TYPES = {  # health, damage per second, sprite, speed, reach
-	7: (100, 40, base_zombie_hit, 0.8, 18)  # regular Zombie
+	7: (100, 30, base_zombie_hit, 0.8, 18)  # regular Zombie
 }
 
 
