@@ -111,16 +111,14 @@ class PathfindingBoard:
 
             # iterate over each nodes neighbor
             for _, nodeNeighbour in enumerate(currentNode.Neighbours):
-                if not nodeNeighbour.Visited:
-                    NodesToBeTested.append(nodeNeighbour)
+                if not nodeNeighbour.Visited:  # if the node nodeNeighbour is yet to be visited
+                    NodesToBeTested.append(nodeNeighbour)  # add to list of nodes to be tested
 
-                PossiblyLowerGoal = currentNode.G_Cost + self.distance(currentNode, nodeNeighbour)
+                PossiblyLowerGoal = currentNode.G_Cost + self.distance(currentNode, nodeNeighbour)  # calculated neighbour heuristic
 
-                if PossiblyLowerGoal < nodeNeighbour.G_Cost:
-                    nodeNeighbour.parent = currentNode
-                    nodeNeighbour.G_Cost = PossiblyLowerGoal
-
-                    nodeNeighbour.G_Cost = nodeNeighbour.G_Cost = self.heuristic(nodeNeighbour, self.nodeEnd)
+                if PossiblyLowerGoal < nodeNeighbour.G_Cost:  # if neighbour is better option
+                    nodeNeighbour.parent = currentNode  # parent to current node for working back through path
+                    nodeNeighbour.G_Cost = self.heuristic(nodeNeighbour, self.nodeEnd)
 
     def getPath(self) -> list:
         """

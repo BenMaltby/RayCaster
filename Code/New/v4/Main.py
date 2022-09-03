@@ -24,7 +24,7 @@ HEIGHT = MapProcessing.HEIGHT  # Height of window in pixels
 FPS = 60  # 30 runs smooth and is more efficient
 RADIAN = math.pi / 180  # used for degree to radian conversion
 CurrentGameState = 1
-MAP_IMG_PATH = "MapFiles/Level_0.png"
+MAP_IMG_PATH = "MapFiles/Level_1.png"
 
 # Define Colors
 WHITE = (255, 255, 255)
