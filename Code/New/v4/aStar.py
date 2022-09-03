@@ -10,9 +10,9 @@ INFINITY = float("inf")
 class sNode:
     def __init__(self, pos, nType, isObst, hasVis, GG, GL, parent):
         self.bObstacle = isObst
-        self.bVisited = hasVis
-        self.fGlobalGoal = GG
-        self.fLocalGoal = GL
+        self.Visited = hasVis
+        self.heuristic_cost = GG
+        self.G_Cost = GL
         self.x = pos[0]
         self.y = pos[1]
         self.pos = createVector(pos[0], pos[1])
@@ -86,40 +86,42 @@ class PathfindingBoard:
         """
         calculates the shortest path between two sNode objects and stores in parent node from endNode
         """
-        for idx, node in enumerate(self.nodeArray):
-            node.bVisited = False
-            node.fGlobalGoal = INFINITY
-            node.fLocalGoal = INFINITY
+        for _, node in enumerate(self.nodeArray):  # reset all nodes back to default stats
+            node.Visited = False
+            node.heuristic_cost = INFINITY
+            node.G_Cost = INFINITY
             node.parent = None
 
-        nodeCurrent = node_Start
-        node_Start.fLocalGoal = 0.0
-        node_Start.fGlobalGoal = self.heuristic(node_Start, self.nodeEnd)
+        # set basic data about start node
+        currentNode = node_Start
+        node_Start.heuristic_cost = self.heuristic(node_Start, self.nodeEnd)  # calculate starting heuristic
+        node_Start.G_Cost = 0.0
 
-        listNotTestedNodes = [node_Start]
+        NodesToBeTested = [node_Start]  # list to store nodes still to be tested
 
-        while len(listNotTestedNodes) > 0:
-            listNotTestedNodes.sort(key=lambda x: x.fGlobalGoal, reverse=True)  # sort based on global goal attribute
+        while len(NodesToBeTested) > 0:  # while there are nodes to test
+            NodesToBeTested.sort(key=lambda x: x.heuristic_cost, reverse=True)  # sort based on heuristic cost attribute
 
-            while len(listNotTestedNodes) > 0 and listNotTestedNodes[0].bVisited:
-                listNotTestedNodes.pop(0)
+            while len(NodesToBeTested) > 0 and NodesToBeTested[0].Visited:  # delete nodes that have been visited
+                NodesToBeTested.pop(0)
 
-            if len(listNotTestedNodes) == 0: break
+            if len(NodesToBeTested) == 0: break
 
-            nodeCurrent = listNotTestedNodes[0]
-            nodeCurrent.bVisited = True
+            currentNode = NodesToBeTested[0]
+            currentNode.Visited = True
 
-            for idx, nodeNeighbour in enumerate(nodeCurrent.Neighbours):
-                if not nodeNeighbour.bVisited and not nodeNeighbour.bObstacle:
-                    listNotTestedNodes.append(nodeNeighbour)
+            # iterate over each nodes neighbor
+            for _, nodeNeighbour in enumerate(currentNode.Neighbours):
+                if not nodeNeighbour.Visited and not nodeNeighbour.bObstacle:
+                    NodesToBeTested.append(nodeNeighbour)
 
-                fPossiblyLowerGoal = nodeCurrent.fLocalGoal + self.distance(nodeCurrent, nodeNeighbour)
+                PossiblyLowerGoal = currentNode.G_Cost + self.distance(currentNode, nodeNeighbour)
 
-                if fPossiblyLowerGoal < nodeNeighbour.fLocalGoal:
-                    nodeNeighbour.parent = nodeCurrent
-                    nodeNeighbour.fLocalGoal = fPossiblyLowerGoal
+                if PossiblyLowerGoal < nodeNeighbour.G_Cost:
+                    nodeNeighbour.parent = currentNode
+                    nodeNeighbour.G_Cost = PossiblyLowerGoal
 
-                    nodeNeighbour.fLocalGoal = nodeNeighbour.fLocalGoal = self.heuristic(nodeNeighbour, self.nodeEnd)
+                    nodeNeighbour.G_Cost = nodeNeighbour.G_Cost = self.heuristic(nodeNeighbour, self.nodeEnd)
 
     def getPath(self) -> list:
         """
