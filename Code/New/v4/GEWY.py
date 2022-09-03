@@ -6,7 +6,7 @@ from random import randint as rInt
 
 GUI_OBJECTS = []  # this Holds all the main wrapper objects created
 pygame.font.init()  # used for font... duh
-GLOBAL_FONT = "Century Gothic"
+GLOBAL_FONT = "blank"  # "Century Gothic"
 
 
 class GUI_REGION:
