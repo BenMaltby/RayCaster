@@ -1,6 +1,6 @@
 import pygame
 from GenerateChunkMapFromImage import GenerateChunks, DIMENSIONS, coordToIDX
-from aStar import PathfindingBoard, sNode
+from aStar import PathfindingBoard
 from VOBJ import createVector
 
 WIDTH = 800
@@ -44,7 +44,7 @@ pygame.display.set_caption("PathFinding Test")
 clock = pygame.time.Clock()  # For syncing the FPS
 
 # Map data
-ChunkedMap, Map, PlayerSpawn, sp = GenerateChunks("MapFiles/Level_1_v5.png")  # Generates a ChunkSystem of GameBoard Image
+ChunkedMap, Map, PlayerSpawn, sp = GenerateChunks("MapFiles/Level_5.png")  # Generates a ChunkSystem of GameBoard Image
 ai_nodeGraph = PathfindingBoard(Map, DIMENSIONS, CELLSIZE)
 ai_nodeGraph.nodeStarts.append(ai_nodeGraph.nodeArray[0])
 ai_nodeGraph.nodeEnd = ai_nodeGraph.nodeArray[-1]
@@ -55,7 +55,7 @@ shortest_path = ai_nodeGraph.getPath()
 def display_nodes(screen, nGraph: PathfindingBoard):
 	if nGraph.nodeArray:
 		for idx, node in enumerate(nGraph.nodeArray):
-			pygame.draw.rect(screen, (255,255,255), pygame.Rect(node.x - 4, node.y - 4, nGraph.cellSize, nGraph.cellSize))
+			# pygame.draw.rect(screen, (255,255,255), pygame.Rect(node.x - 4, node.y - 4, nGraph.cellSize, nGraph.cellSize))
 			for jdx, neighbor in enumerate(node.Neighbours):
 				pygame.draw.line(screen, (0,255,0), (node.x, node.y), (neighbor.x, neighbor.y))
 
