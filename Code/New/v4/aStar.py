@@ -80,7 +80,7 @@ class PathfindingBoard:
     # A_Star Solver implementation in c++ translated into python from YouTube tutorial by Javidx9
     # YouTube video: https://www.youtube.com/watch?v=icZj67PTFhc
     # GitHub source code: https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_PathFinding_AStar.cpp
-    # lines 85 - 122
+    # lines 84 - 121
     def Solve_AStar(self, node_Start):
         """
         calculates the shortest path between two sNode objects and stores in parent node from endNode
