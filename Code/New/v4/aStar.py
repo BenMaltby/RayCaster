@@ -9,7 +9,6 @@ INFINITY = float("inf")
 
 class sNode:
     def __init__(self, pos, nType, isObst, hasVis, GG, GL, parent):
-        self.bObstacle = isObst
         self.Visited = hasVis
         self.heuristic_cost = GG
         self.G_Cost = GL
@@ -112,7 +111,7 @@ class PathfindingBoard:
 
             # iterate over each nodes neighbor
             for _, nodeNeighbour in enumerate(currentNode.Neighbours):
-                if not nodeNeighbour.Visited and not nodeNeighbour.bObstacle:
+                if not nodeNeighbour.Visited:
                     NodesToBeTested.append(nodeNeighbour)
 
                 PossiblyLowerGoal = currentNode.G_Cost + self.distance(currentNode, nodeNeighbour)
