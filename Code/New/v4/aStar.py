@@ -1,5 +1,3 @@
-# Only code that i didn't write is the actual Solve_AStar Method in the PathfindingBoard class and the essentials of the sNode object.
-
 import math
 from VOBJ import createVector
 from Chunk_Struct import ChunkSystem
@@ -77,10 +75,6 @@ class PathfindingBoard:
             temp.extend(self.nodeGrid.Query(tempPoint(node.x - self.cellSize, node.y), 0))
             node.Neighbours.extend(temp)
 
-    # A_Star Solver implementation in c++ translated into python from YouTube tutorial by Javidx9
-    # YouTube video: https://www.youtube.com/watch?v=icZj67PTFhc
-    # GitHub source code: https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_PathFinding_AStar.cpp
-    # lines 84 - 121
     def Solve_AStar(self, node_Start):
         """
         calculates the shortest path between two sNode objects and stores in parent node from endNode
