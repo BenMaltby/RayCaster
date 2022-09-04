@@ -51,7 +51,7 @@ class PathfindingBoard:
         """
         Loops over all nodes and adds neighbours to walkable nodes
         """
-        for idx, node in enumerate(self.nodeGrid):
+        for _, node in enumerate(self.nodeGrid):
             cell = createVector(node.x // cellSize, node.y // cellSize)
 
             if cell.y > 0:  # if, can check up
@@ -95,17 +95,19 @@ class PathfindingBoard:
             nodeCurrent = listNotTestedNodes[0]
             nodeCurrent.bVisited = True
 
-            for idx, nodeNeighbour in enumerate(nodeCurrent.Neighbours):
+            for _, nodeNeighbour in enumerate(nodeCurrent.Neighbours):
                 if not nodeNeighbour.bVisited and not nodeNeighbour.bObstacle:
                     listNotTestedNodes.append(nodeNeighbour)
 
-                fPossiblyLowerGoal = nodeCurrent.fLocalGoal + self.distance(nodeCurrent, nodeNeighbour)
+                currentHeuristicDist = self.distance(nodeCurrent, nodeNeighbour)
+                fPossiblyLowerGoal = nodeCurrent.fLocalGoal + currentHeuristicDist
 
                 if fPossiblyLowerGoal < nodeNeighbour.fLocalGoal:
                     nodeNeighbour.parent = nodeCurrent
                     nodeNeighbour.fLocalGoal = fPossiblyLowerGoal
 
-                    nodeNeighbour.fLocalGoal = nodeNeighbour.fLocalGoal = self.heuristic(nodeNeighbour, self.nodeEnd)
+                    currentHeuristicDist = self.heuristic(nodeNeighbour, self.nodeEnd)
+                    nodeNeighbour.fLocalGoal = currentHeuristicDist
 
     def getPath(self) -> list:
         """
