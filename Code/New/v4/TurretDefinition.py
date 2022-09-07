@@ -193,7 +193,7 @@ class Turret:
 				self.__AMMO_CAP = WeaponKit["Machine_Gun"].ammo_cap
 				pickup_used = True
 			if cell == 13 and index >= 0:
-				self.ZOMBIES_ARE_COMING = True if not self.ZOMBIES_ARE_COMING else False
+				self.ZOMBIES_ARE_COMING = True  # if not self.ZOMBIES_ARE_COMING else False
 				pickup_used = True
 			if cell == 14 and index >= 0:
 				return_command = "next"
